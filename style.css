@@ -22,13 +22,29 @@ body {
     max-width: 600px;
     text-align: center;
     line-height: 1.5;
+    border-radius: 6px;
 }
 
 button {
-    background-color: aqua;
+    background-color: rgb(0, 200, 255);
     color: white;
     padding: 6px;
     border-radius: 4px;
     border: none;
     margin: 6px 0;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0,150, 200);
+}
+
+#author {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#category {
+    text-transform: capitalize;
 }
